@@ -1,16 +1,3 @@
-### ReScience submission template repository
+### ReScience submission test
 
-This is the submission template repository for the
-[Re**Science** journal](https://github.com/ReScience/ReScience/wiki).
-
-### How to build the PDF ?
-
-In a console, type:
-
-```
-pandoc --standalone --template=rescience-template.tex --latex-engine=xelatex --biblatex --bibliography=paper.bib --output paper.tex paper.md
-xelatex paper
-biber paper
-xelatex paper
-xelatex paper
-```
+Just a quick test repository for the submission process - to be deleted afterwards.
